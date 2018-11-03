@@ -17,7 +17,7 @@ main()
   printf("F\t   Cel\n");
   printf("==============\n");
   // Exercise 1.5 : Reversed temperature range
-  for (fahr = upper; fahr > 0; fahr = fahr - step)
+  for (fahr = upper; fahr >= lower; fahr = fahr - step)
   {
     celsius = (5.0 / 9.0) * (fahr - 32);
     printf("%3.0f\t%6.1f\n", fahr, celsius);
