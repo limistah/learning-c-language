@@ -1,7 +1,7 @@
 /* Ex 1.14 */
 #include <stdio.h>
 
-#define CHARCODELEN 255 /* Length of the character codes */
+#define CHARCODELEN 128 /* Length of the character codes */
 
 int main(void)
 {
