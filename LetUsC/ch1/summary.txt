@@ -1,0 +1,5 @@
+
+An expression may contain any sequence of constants, variables and operators.
+Operators having equal precedence are evaluated using associativity.
+Left to right associativity means that the left operand of a operator must be unambiguous whereas right to left associativity means that the right operand of a operator must be unambiguous.
+Input/output in C can be achieved using scanf( ) and printf( ) functions.
