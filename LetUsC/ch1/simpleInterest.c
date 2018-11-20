@@ -10,6 +10,9 @@ main()
   n = 3;
   r = 8.5;
 
+  int v = 2 % -8;
+  printf("%d\n", v);
+
   /* Formula for simple interest */
   si = p * n * r / 1000;
 
